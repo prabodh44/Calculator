@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		921987891A2F480500DD802A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 921987881A2F480500DD802A /* main.m */; };
+		921987931A2F4F5400DD802A /* MathOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 921987911A2F4F5400DD802A /* MathOperations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		921987851A2F480500DD802A /* Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
 		921987881A2F480500DD802A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		921987911A2F4F5400DD802A /* MathOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathOperations.m; sourceTree = "<group>"; };
+		921987921A2F4F5400DD802A /* MathOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathOperations.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		9219877C1A2F480500DD802A = {
 			isa = PBXGroup;
 			children = (
+				921987911A2F4F5400DD802A /* MathOperations.m */,
+				921987921A2F4F5400DD802A /* MathOperations.h */,
 				921987871A2F480500DD802A /* Calculator */,
 				921987861A2F480500DD802A /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				921987891A2F480500DD802A /* main.m in Sources */,
+				921987931A2F4F5400DD802A /* MathOperations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +208,7 @@
 		9219878D1A2F480500DD802A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +216,7 @@
 		9219878E1A2F480500DD802A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
